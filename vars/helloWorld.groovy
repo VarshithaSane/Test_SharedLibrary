@@ -2,9 +2,9 @@
 //     sh "echo Hello ${name}. Today is ${dayofweek}."
 // }
 
-def call(Map config = [:]) {
-    sh "echo Hello ${config.name}. Today is ${config.dayofweek}."
-}
+// def call(Map config = [:]) {
+//     sh "echo Hello ${config.name}. Today is ${config.dayofweek}."
+// }
 
 // class Example {
 //    static void main(String[] args) {
@@ -12,3 +12,9 @@ def call(Map config = [:]) {
 //       println('Hello World');
 //    }
 // }
+
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
+} 
