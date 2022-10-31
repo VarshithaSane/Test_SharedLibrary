@@ -1,6 +1,8 @@
-// def call(String name, String dayofweek) {
+def call(String name, String dayofweek) {
+    
+    println "Hello ${name}. Today is ${dayofweek}."
 //     sh "echo Hello ${name}. Today is ${dayofweek}."
-// }
+}
 
 // def call(Map config = [:]) {
 //     sh "echo Hello ${config.name}. Today is ${config.dayofweek}."
@@ -13,8 +15,8 @@
 //    }
 // }
 
-class Simple{  
-    public static void main(String args[]){  
-     System.out.println("Hello Java");  
-    }  
-} 
+// class Simple{  
+//     public static void main(String args[]){  
+//      System.out.println("Hello Java");  
+//     }  
+// } 
