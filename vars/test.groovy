@@ -1,3 +1,3 @@
-def call(String name, String dayofweek) {
+def call() {
     
-    println "Hello ${name}. Today is ${dayofweek} testing branching."
+    sh "echo testing branching."
