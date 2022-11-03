@@ -1,8 +1,14 @@
-def call(String name, String dayofweek) {
-    
-    println "Hello ${name}. Today is ${dayofweek}."
-//     sh "echo Hello ${name}. Today is ${dayofweek}."
+def call() {
+    sh "echo testing"
 }
+
+
+
+// def call(String name, String dayofweek) {
+    
+//     println "Hello ${name}. Today is ${dayofweek}."
+//     sh "echo Hello ${name}. Today is ${dayofweek}."
+// }
 
 // def call(Map config = [:]) {
 //     sh "echo Hello ${config.name}. Today is ${config.dayofweek}."
