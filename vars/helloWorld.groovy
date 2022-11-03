@@ -1,6 +1,12 @@
-def call(String name, String dayofweek) {
+def call() {
+    sh "echo testing"
+}
+
+
+
+// def call(String name, String dayofweek) {
     
-    println "Hello ${name}. Today is ${dayofweek}."
+//     println "Hello ${name}. Today is ${dayofweek}."
 //     sh "echo Hello ${name}. Today is ${dayofweek}."
 }
 
