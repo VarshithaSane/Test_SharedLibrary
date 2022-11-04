@@ -1,5 +1,5 @@
 def call() {
-    sh "echo testing"
+    sh "echo testing main branch"
 }
 
 
